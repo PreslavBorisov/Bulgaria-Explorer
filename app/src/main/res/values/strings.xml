@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">BulgariaExplorer</string>
+    <string name="app_title">Bulgaria Explorer</string>
+
+    <!-- Login -->
+    <string name="login_tagline">Открий България</string>
+    <string name="login_email_hint">Имейл</string>
+    <string name="login_password_hint">Парола</string>
+    <string name="login_button">Вход</string>
+    <string name="login_register_link">Нямате акаунт? Регистрирайте се</string>
+    <string name="login_email_required">Имейлът е задължителен</string>
+    <string name="login_password_required">Паролата е задължителна</string>
+    <string name="login_success">Успешен вход!</string>
+
+    <!-- Register -->
+    <string name="register_title">Създай акаунт</string>
+    <string name="register_username_hint">Потребителско име</string>
+    <string name="register_email_hint">Имейл</string>
+    <string name="register_password_hint">Парола</string>
+    <string name="register_button">Регистрация</string>
+    <string name="register_login_link">Вече имате акаунт? Влезте</string>
+    <string name="register_username_required">Потребителското име е задължително</string>
+    <string name="register_email_required">Имейлът е задължителен</string>
+    <string name="register_password_required">Паролата е задължителна</string>
+    <string name="register_password_min_length">Паролата трябва да е поне 8 символа</string>
+    <string name="register_success">Успешна регистрация!</string>
+
+    <!-- Home -->
+    <string name="home_welcome">Добре дошли отново!</string>
+    <string name="home_user_default">Потребител</string>
+    <string name="home_points_label">Точки</string>
+    <string name="home_level_label">Ниво</string>
+    <string name="home_streak_label">Дневна Поредица</string>
+    <string name="home_featured_pois">Представени места</string>
+    <string name="home_loading_error">Грешка при зареждане</string>
+
+    <!-- POI List -->
+    <string name="poi_list_search_hint">Търсене на места…</string>
+    <string name="poi_list_no_results">Няма намерени места</string>
+
+    <string name="poi_details_info_tab">Информация</string>
+    <string name="poi_details_photos_tab">Снимки</string>
+    <string name="poi_details_details_tab">Детайли</string>
+    <string name="poi_details_visits_label">Посещения</string>
+    <string name="poi_details_difficulty_label">Трудност</string>
+    <string name="poi_details_visit_button">Посети това място</string>
+    <string name="poi_details_unknown_place">Неизвестно място</string>
+    <string name="poi_details_no_description">Няма описание</string>
+    <string name="poi_details_unknown_city">Неизвестно</string>
+    <string name="poi_details_difficulty_default">Средно</string>
+    <string name="poi_details_points_format">%d т.</string>
+    <string name="poi_details_visit_success">Успешно посещение! +%d точки</string>
+    <string name="poi_details_permissions_required">Необходими са разрешения за камера и местоположение</string>
+
+    <!-- Photo Viewer -->
+    <string name="photo_saving">Запазване…</string>
+    <string name="photo_save_success">Снимката е запазена в галерията</string>
+    <string name="photo_save_error">Неуспешно запазване на снимката</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Моите Любими</string>
+    <string name="favorites_empty_title">Все още нямате любими</string>
+    <string name="favorites_empty_description">Започнете да разглеждате и добавете места към любимите си!</string>
+
+    <!-- Map -->
+    <string name="map_permission_denied">Разрешението за местоположение е отказано</string>
+    <string name="map_unknown_title">Неизвестно</string>
+    <string name="map_permission_required">Необходимо е разрешение за местоположение</string>
+    <string name="map_location_unavailable">Не може да се определи текущото местоположение</string>
+
+    <!-- Leaderboard -->
+    <string name="leaderboard_title">Класация</string>
+    <string name="leaderboard_your_rank">Вашето място</string>
+    <string name="leaderboard_level_format">Ниво %d</string>
+    <string name="leaderboard_points_format">%d т.</string>
+    <string name="leaderboard_rank_placeholder">#-</string>
+    <string name="leaderboard_points_placeholder">0 т.</string>
+
+    <!-- Profile -->
+    <string name="profile_user_default">Потребител</string>
+    <string name="profile_points_label">Точки</string>
+    <string name="profile_level_label">Ниво</string>
+    <string name="profile_streak_label">Дневна Поредица</string>
+    <string name="profile_settings_label">Настройки</string>
+    <string name="profile_dark_mode">Тъмен режим</string>
+    <string name="profile_achievements_label">Постижения</string>
+    <string name="profile_missions_button">Погледни Мисиите</string>
+    <string name="profile_visits_button">Моите Посещения</string>
+    <string name="profile_favorites_button">Моите Любими</string>
+    <string name="profile_admin_panel">Админ панел</string>
+    <string name="profile_logout">Излез</string>
+
+    <!-- Achievements -->
+    <string name="achievement_unlocked_format">Отключено: %s</string>
+    <string name="achievement_locked">Заключено</string>
+
+    <!-- Missions -->
+    <string name="missions_title">Мисии</string>
+    <string name="missions_subtitle">Изпълнявайте мисии за награди и постижения</string>
+    <string name="missions_empty">Няма налични мисии</string>
+    <string name="mission_completed_label">✓ ГОТОВО</string>
+
+    <!-- My Visits -->
+    <string name="visits_title">Моите Посещения</string>
+    <string name="visits_empty_title">Все още нямате посещения</string>
+    <string name="visits_empty_description">Посетете място и направете снимка за да получите точки!</string>
+    <string name="visits_loading_error">Неуспешно зареждане на посещенията</string>
+    <string name="visit_unknown_place">Неизвестно място</string>
+    <string name="visit_points_format">+%d т.</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Известия</string>
+    <string name="notifications_mark_read_all">Прочети всички</string>
+    <string name="notifications_empty">Няма известия</string>
+    <string name="notification_not_logged_in">Не сте влезли в акаунта си</string>
+    <string name="notification_load_error">Грешка при зареждане на известията</string>
+
+    <!-- Common -->
+    <string name="error_generic">Грешка</string>
+    <string name="error_format">Грешка: %s</string>
+    <string name="dialog_delete_title">Изтриване</string>
+    <string name="dialog_delete_confirm">Изтрий</string>
+    <string name="dialog_cancel">Отказ</string>
+    <string name="action_edit">Редактирай</string>
+    <string name="label_active">Активен</string>
+    <string name="label_inactive">Неактивен</string>
+    <string name="label_save">Запази</string>
+    <string name="field_title_required">Заглавието е задължително</string>
+
+    <!-- Admin Panel -->
+    <string name="admin_panel_title">Админ панел</string>
+    <string name="admin_users_label">Потребители</string>
+    <string name="admin_pois_label">Обекти</string>
+    <string name="admin_visits_label">Посещения</string>
+    <string name="admin_missions_label">Мисии</string>
+    <string name="admin_achievements_label">Постижения</string>
+    <string name="admin_active_7d_label">Активни (7д)</string>
+    <string name="admin_management_label">Управление</string>
+    <string name="admin_pois_button">Обекти (POI)</string>
+    <string name="admin_send_notification">Изпрати известие</string>
+
+    <!-- Admin Users -->
+    <string name="admin_users_title">Потребители</string>
+    <string name="admin_users_empty">Няма потребители</string>
+    <string name="admin_user_change_role">Промени роля на %s</string>
+    <string name="admin_user_delete_option">Изтрий потребител</string>
+    <string name="admin_user_delete_confirm">Сигурни ли сте, че искате да изтриете %s?</string>
+    <string name="admin_user_stats_format">%d т. | Ниво %d</string>
+    <string name="admin_user_role_changed">Ролята е променена</string>
+    <string name="admin_user_deleted">Потребителят е изтрит</string>
+
+    <!-- Admin POIs -->
+    <string name="admin_pois_title">Обекти (POI)</string>
+    <string name="admin_pois_empty">Няма обекти</string>
+    <string name="admin_poi_no_title">Без заглавие</string>
+    <string name="admin_poi_unknown_city">Неизвестен град</string>
+    <string name="admin_poi_delete_option">Изтрий обект</string>
+    <string name="admin_poi_delete_confirm">Сигурни ли сте, че искате да изтриете %s?</string>
+    <string name="admin_poi_created">Обектът е създаден</string>
+    <string name="admin_poi_updated">Обектът е обновен</string>
+    <string name="admin_poi_deleted">Обектът е изтрит</string>
+
+    <!-- Admin Missions -->
+    <string name="admin_missions_title">Мисии</string>
+    <string name="admin_missions_empty">Няма мисии</string>
+    <string name="admin_mission_stats_format">%d точки | Цел: %d</string>
+    <string name="admin_mission_active">Активна</string>
+    <string name="admin_mission_inactive">Неактивна</string>
+    <string name="admin_mission_delete_confirm">Сигурни ли сте, че искате да изтриете %s?</string>
+    <string name="admin_mission_created">Мисията е създадена</string>
+    <string name="admin_mission_updated">Мисията е обновена</string>
+    <string name="admin_mission_deleted">Мисията е изтрита</string>
+
+    <!-- Admin Achievements -->
+    <string name="admin_achievements_title">Постижения</string>
+    <string name="admin_achievements_empty">Няма постижения</string>
+    <string name="admin_achievement_target_format">Цел: %s</string>
+    <string name="admin_achievement_active">Активно</string>
+    <string name="admin_achievement_inactive">Неактивно</string>
+    <string name="admin_achievement_delete_confirm">Сигурни ли сте, че искате да изтриете %s?</string>
+    <string name="admin_achievement_created">Постижението е създадено</string>
+    <string name="admin_achievement_updated">Постижението е обновено</string>
+    <string name="admin_achievement_deleted">Постижението е изтрито</string>
+
+    <!-- POI Form -->
+    <string name="poi_form_title_new">Нов обект</string>
+    <string name="poi_form_title_edit">Редактирай обект</string>
+    <string name="poi_form_title_hint">Заглавие *</string>
+    <string name="poi_form_short_desc_hint">Кратко описание</string>
+    <string name="poi_form_full_desc_hint">Пълно описание</string>
+    <string name="poi_form_category_hint">Категория *</string>
+    <string name="poi_form_latitude_hint">Ширина *</string>
+    <string name="poi_form_longitude_hint">Дължина *</string>
+    <string name="poi_form_address_hint">Адрес</string>
+    <string name="poi_form_city_hint">Град</string>
+    <string name="poi_form_region_hint">Регион</string>
+    <string name="poi_form_opening_hours_hint">Работно време</string>
+    <string name="poi_form_source_url_hint">URL източник</string>
+    <string name="poi_form_reward_points_hint">Точки награда</string>
+    <string name="poi_form_category_required">Изберете категория</string>
+    <string name="poi_form_coordinates_invalid">Въведете валидни координати</string>
+
+    <!-- Mission Form -->
+    <string name="mission_form_title_new">Нова мисия</string>
+    <string name="mission_form_title_edit">Редактирай мисия</string>
+    <string name="mission_form_title_hint">Заглавие</string>
+    <string name="mission_form_description_hint">Описание</string>
+    <string name="mission_form_type_hint">Тип мисия</string>
+    <string name="mission_form_target_value_hint">Целева стойност</string>
+    <string name="mission_form_reward_points_hint">Точки награда</string>
+    <string name="mission_form_region_hint">Регион (незадължително)</string>
+    <string name="mission_form_active_label">Активна</string>
+    <string name="mission_form_type_required">Изберете тип мисия</string>
+    <string name="mission_form_target_required">Въведете целева стойност</string>
+
+    <!-- Achievement Form -->
+    <string name="achievement_form_title_new">Ново постижение</string>
+    <string name="achievement_form_title_edit">Редактирай постижение</string>
+    <string name="achievement_form_title_hint">Заглавие</string>
+    <string name="achievement_form_description_hint">Описание</string>
+    <string name="achievement_form_code_hint">Код (уникален)</string>
+    <string name="achievement_form_icon_hint">Икона (незадължително)</string>
+    <string name="achievement_form_target_value_hint">Целева стойност</string>
+    <string name="achievement_form_active_label">Активно</string>
+    <string name="achievement_form_code_required">Кодът е задължителен</string>
+
+    <!-- Admin Notification -->
+    <string name="admin_notification_dialog_title">Изпрати известие до всички</string>
+    <string name="admin_notification_title_hint">Заглавие</string>
+    <string name="admin_notification_message_hint">Съобщение</string>
+    <string name="admin_notification_send_button">Изпрати</string>
+    <string name="admin_notification_validation_error">Попълнете всички полета</string>
+    <string name="admin_notification_sent_format">Известието е изпратено до %d потребители</string>
+
+    <!-- Admin Errors -->
+    <string name="admin_not_logged_in">Не сте влезли в акаунта си</string>
+    <string name="admin_stats_load_error">Грешка при зареждане на статистиките</string>
+    <string name="admin_users_load_error">Грешка при зареждане на потребителите</string>
+    <string name="admin_role_change_error">Грешка при промяна на ролята</string>
+    <string name="admin_user_delete_error">Грешка при изтриване на потребител</string>
+    <string name="admin_pois_load_error">Грешка при зареждане на обектите</string>
+    <string name="admin_poi_delete_error">Грешка при изтриване на обект</string>
+    <string name="admin_poi_create_error">Грешка при създаване на обект</string>
+    <string name="admin_poi_update_error">Грешка при обновяване на обект</string>
+    <string name="admin_categories_load_error">Грешка при зареждане на категориите</string>
+    <string name="admin_missions_load_error">Грешка при зареждане на мисиите</string>
+    <string name="admin_mission_create_error">Грешка при създаване на мисия</string>
+    <string name="admin_mission_update_error">Грешка при обновяване на мисия</string>
+    <string name="admin_mission_delete_error">Грешка при изтриване на мисия</string>
+    <string name="admin_achievements_load_error">Грешка при зареждане на постиженията</string>
+    <string name="admin_achievement_create_error">Грешка при създаване на постижение</string>
+    <string name="admin_achievement_update_error">Грешка при обновяване на постижение</string>
+    <string name="admin_achievement_delete_error">Грешка при изтриване на постижение</string>
+    <string name="admin_notification_send_error">Грешка при изпращане на известие</string>
+    <string name="create_button">Create button</string>
+    <string name="image_view">Image view</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Material Design 3 — Nature/Explorer Green Theme (Light) -->
+
+    <!-- Primary -->
+    <color name="md_theme_light_primary">#2E7D32</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#B9F6CA</color>
+    <color name="md_theme_light_onPrimaryContainer">#002106</color>
+
+    <!-- Secondary -->
+    <color name="md_theme_light_secondary">#52634F</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#D5E8CF</color>
+    <color name="md_theme_light_onSecondaryContainer">#101F10</color>
+
+    <!-- Tertiary -->
+    <color name="md_theme_light_tertiary">#386568</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#BCEBEE</color>
+    <color name="md_theme_light_onTertiaryContainer">#002021</color>
+
+    <!-- Error -->
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+
+    <!-- Background & Surface -->
+    <color name="md_theme_light_background">#FCFDF7</color>
+    <color name="md_theme_light_onBackground">#1A1C18</color>
+    <color name="md_theme_light_surface">#FCFDF7</color>
+    <color name="md_theme_light_onSurface">#1A1C18</color>
+    <color name="md_theme_light_surfaceVariant">#DEE5D8</color>
+    <color name="md_theme_light_onSurfaceVariant">#424940</color>
+
+    <!-- Outline -->
+    <color name="md_theme_light_outline">#72796F</color>
+    <color name="md_theme_light_outlineVariant">#C2C9BD</color>
+
+    <!-- Inverse -->
+    <color name="md_theme_light_inverseSurface">#2F312D</color>
+    <color name="md_theme_light_inverseOnSurface">#F0F1EB</color>
+    <color name="md_theme_light_inversePrimary">#7DDC7E</color>
+
+    <!-- Material Design 3 — Nature/Explorer Green Theme (Dark) -->
+
+    <!-- Primary -->
+    <color name="md_theme_dark_primary">#7DDC7E</color>
+    <color name="md_theme_dark_onPrimary">#003910</color>
+    <color name="md_theme_dark_primaryContainer">#1B5E20</color>
+    <color name="md_theme_dark_onPrimaryContainer">#B9F6CA</color>
+
+    <!-- Secondary -->
+    <color name="md_theme_dark_secondary">#B9CCB4</color>
+    <color name="md_theme_dark_onSecondary">#253424</color>
+    <color name="md_theme_dark_secondaryContainer">#3B4B39</color>
+    <color name="md_theme_dark_onSecondaryContainer">#D5E8CF</color>
+
+    <!-- Tertiary -->
+    <color name="md_theme_dark_tertiary">#A0CFD2</color>
+    <color name="md_theme_dark_onTertiary">#003739</color>
+    <color name="md_theme_dark_tertiaryContainer">#1E4D50</color>
+    <color name="md_theme_dark_onTertiaryContainer">#BCEBEE</color>
+
+    <!-- Error -->
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+
+    <!-- Background & Surface -->
+    <color name="md_theme_dark_background">#1A1C18</color>
+    <color name="md_theme_dark_onBackground">#E2E3DD</color>
+    <color name="md_theme_dark_surface">#1A1C18</color>
+    <color name="md_theme_dark_onSurface">#E2E3DD</color>
+    <color name="md_theme_dark_surfaceVariant">#424940</color>
+    <color name="md_theme_dark_onSurfaceVariant">#C2C9BD</color>
+
+    <!-- Outline -->
+    <color name="md_theme_dark_outline">#8C9388</color>
+    <color name="md_theme_dark_outlineVariant">#424940</color>
+
+    <!-- Inverse -->
+    <color name="md_theme_dark_inverseSurface">#E2E3DD</color>
+    <color name="md_theme_dark_inverseOnSurface">#2F312D</color>
+    <color name="md_theme_dark_inversePrimary">#2E7D32</color>
+</resources>

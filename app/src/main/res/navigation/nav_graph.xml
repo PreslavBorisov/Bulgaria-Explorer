@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.bulgariaexplorer.app.ui.auth.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.bulgariaexplorer.app.ui.auth.RegisterFragment"
+        android:label="Register" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bulgariaexplorer.app.ui.home.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_homeFragment_to_poiDetailsFragment"
+            app:destination="@id/poiDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/poiListFragment"
+        android:name="com.bulgariaexplorer.app.ui.poi.PoiListFragment"
+        android:label="Explore Places">
+        <action
+            android:id="@+id/action_poiListFragment_to_poiDetailsFragment"
+            app:destination="@id/poiDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.bulgariaexplorer.app.ui.favorites.FavoritesFragment"
+        android:label="Favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_poiDetailsFragment"
+            app:destination="@id/poiDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.bulgariaexplorer.app.ui.map.MapFragment"
+        android:label="Map">
+        <action
+            android:id="@+id/action_mapFragment_to_poiDetailsFragment"
+            app:destination="@id/poiDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="com.bulgariaexplorer.app.ui.leaderboard.LeaderboardFragment"
+        android:label="Leaderboard" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.bulgariaexplorer.app.ui.profile.ProfileFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_profileFragment_to_missionsFragment"
+            app:destination="@id/missionsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_myVisitsFragment"
+            app:destination="@id/myVisitsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/missionsFragment"
+        android:name="com.bulgariaexplorer.app.ui.missions.MissionsFragment"
+        android:label="Missions" />
+
+    <fragment
+        android:id="@+id/myVisitsFragment"
+        android:name="com.bulgariaexplorer.app.ui.visits.MyVisitsFragment"
+        android:label="Моите Посещения">
+        <action
+            android:id="@+id/action_myVisitsFragment_to_poiDetailsFragment"
+            app:destination="@id/poiDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/poiDetailsFragment"
+        android:name="com.bulgariaexplorer.app.ui.poi.PoiDetailsFragment"
+        android:label="Place Details">
+        <argument
+            android:name="poiId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_poiDetailsFragment_to_photoViewerFragment"
+            app:destination="@id/photoViewerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/photoViewerFragment"
+        android:name="com.bulgariaexplorer.app.ui.poi.PhotoViewerFragment"
+        android:label="Photo">
+        <argument
+            android:name="imageUrl"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Admin Screens -->
+    <fragment
+        android:id="@+id/adminPanelFragment"
+        android:name="com.bulgariaexplorer.app.ui.admin.AdminPanelFragment"
+        android:label="Админ панел" />
+
+    <fragment
+        android:id="@+id/adminUsersFragment"
+        android:name="com.bulgariaexplorer.app.ui.admin.users.AdminUsersFragment"
+        android:label="Потребители" />
+
+    <fragment
+        android:id="@+id/adminPoisFragment"
+        android:name="com.bulgariaexplorer.app.ui.admin.pois.AdminPoisFragment"
+        android:label="Обекти" />
+
+    <fragment
+        android:id="@+id/adminMissionsFragment"
+        android:name="com.bulgariaexplorer.app.ui.admin.missions.AdminMissionsFragment"
+        android:label="Мисии" />
+
+    <fragment
+        android:id="@+id/adminAchievementsFragment"
+        android:name="com.bulgariaexplorer.app.ui.admin.achievements.AdminAchievementsFragment"
+        android:label="Постижения" />
+
+    <fragment
+        android:id="@+id/missionFormFragment"
+        android:name="com.bulgariaexplorer.app.ui.admin.missions.MissionFormFragment"
+        android:label="Мисия" />
+
+    <fragment
+        android:id="@+id/achievementFormFragment"
+        android:name="com.bulgariaexplorer.app.ui.admin.achievements.AchievementFormFragment"
+        android:label="Постижение" />
+
+    <fragment
+        android:id="@+id/poiFormFragment"
+        android:name="com.bulgariaexplorer.app.ui.admin.pois.PoiFormFragment"
+        android:label="Обект" />
+
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.bulgariaexplorer.app.ui.notifications.NotificationsFragment"
+        android:label="Известия" />
+
+</navigation>
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Начало" />
+    <item
+        android:id="@+id/poiListFragment"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Разгледай" />
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Карта" />
+    <item
+        android:id="@+id/leaderboardFragment"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Класация" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Профил" />
+</menu>
